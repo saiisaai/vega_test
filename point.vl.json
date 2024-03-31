@@ -1,0 +1,16 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {"url": "data/bigmac.csv"},
+  "title": "All Points",
+  "mark": "point",
+  "encoding":{
+        "x": {
+          "field": "date", 
+          "type": "temporal"
+        },
+        "y": {
+          "field": "dollar_price", 
+          "type": "quantitative"
+        }
+    }
+}
